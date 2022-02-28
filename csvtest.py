@@ -21,11 +21,15 @@ def compare_common_files_by_lines(dir1, dir2):
              different = csv_1 ^ csv_2
              for row in sorted(different, key=lambda x: x, reverse=True):
                 if row:
-                     print(f'This row: \n {row} \n was different between the file {filename} in the directories'
-                             f' {dir1} and {dir2}')
-      
+                   return False      
 
 dir1 = '/home/ayuba/newfolder'
 dir2 = '/home/ayuba/newfolder2'
 
 check = compare_common_files_by_lines(dir1, dir2)
+
+
+if check == False:
+   print("Doesnt match")
+else:
+   print("It match")
