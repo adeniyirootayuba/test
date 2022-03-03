@@ -1,0 +1,12 @@
+INPATIENT_Crossover	
+TPI
+UB_Crossover_In_TPI
+
+OUTPATIENT
+Taxonomy
+UB_Out_Other_Prv_Taxonomy
+
+OUTPATIENT_Crossover
+Taxonomy
+UB_Crossover_Out_Other_Taxonomy
+
